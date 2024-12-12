@@ -14,3 +14,16 @@
     # Implement basic arithmetic operations to calculate averages.
     # Utilize Python's built-in functions like max() and min() where applicable.
     # Format your output to make it easy to read and understand.
+
+# CSV Data Structure with Four Columns
+# Name: The student's name
+# Maths Grade: The grade achieved in Maths (assuming a grading scale similar to UK GCSEs)
+# Science Grade: The grade achieved in Science
+# English Grade: The grade achieved in English
+
+    # Name,Maths Grade,Science Grade,English Grade
+    # Alice,85,Y4:0,90
+    # Bob,78,X2:0,95
+    # Charlie,92,O3:0,88
+    # David,76,N1:0,92
+    # Eve,89,P2:0,91
