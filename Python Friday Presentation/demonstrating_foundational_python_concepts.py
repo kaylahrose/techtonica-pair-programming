@@ -81,3 +81,77 @@
             # formatted_string = f"My favorite string is '{cleaned_string}'."
 
             # print(formatted_string)
+
+
+# =====================
+# EVALUATION CRITERIA
+# =====================
+
+# I. Variables and Data Types
+    # Variable Declaration
+        # Correctly declare variables of different data types (int, float, string, boolean)
+        # Use appropriate variable names
+    # Type Conversion
+        # Demonstrate type conversion between numeric types
+        # Show correct usage of built-in functions like int(), float(), etc.
+    # Data Type Usage
+        # Properly use each data type in context-appropriate operations
+        # Avoid mixing data types where inappropriate
+
+# II. Control Flow Statements
+    # if-else Statements
+        # Correct implementation of basic if-else structure
+        # Proper indentation and logical flow
+    # Nested Conditions
+        # Correct implementation of nested if-else statements
+        # Logical nesting and proper indentation
+
+# III. Loops
+    # For Loop
+        # Correct implementation of a for loop iterating over a sequence
+        # Proper use of range() or other iterable
+    # While Loop
+        # Correct implementation of a while loop with proper condition checking
+        # Logical flow and correct increment/decrement operations
+
+# IV. Functions
+    # Function Definition
+        # Correct syntax for defining a function
+        # Proper use of parameters and return statements
+    # Function Call and Argument Passing
+        # Correct usage of functions with appropriate arguments
+        # Proper handling of returned values
+
+# V. Lists and Tuples
+    # List/Tuple Creation
+        # Correct creation of lists and tuples
+        # Proper use of square brackets and parentheses
+    # Indexing and Slicing
+        # Correct usage of indexing and slicing operations
+        # Proper understanding of list/tuple structure
+    # Concatenation
+        # Correct implementation of list concatenation
+        # Proper use of + operator or list methods
+
+# VI. Strings
+    # String Manipulation Methods
+        # Correct usage of string methods like upper(), lower(), strip()
+        # Proper application of these methods on strings
+    # String Formatting
+        # Correct implementation of f-strings or .format() method
+        # Proper formatting of variables within strings
+        # Clear and readable output format
+
+# VII. Additional Criteria
+    # Comments and Documentation
+        # Presence of clear, descriptive comments explaining each concept
+        # Proper indentation and code organization
+    # Error Handling
+        # Implementation of try-except blocks where appropriate
+        # Proper error message handling and debugging techniques
+    # Overall Structure and Readability
+        # Logical organization of code into sections
+        # Meaningful variable names that describe their purpose
+        # Blank lines used effectively for readability
+
+# =====================

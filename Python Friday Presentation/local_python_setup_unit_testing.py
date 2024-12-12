@@ -39,3 +39,74 @@
     # Use proper indentation in your code.
     # Understand the structure of unit tests, including assertions and test cases.
     # Learn how to run Python scripts from the command line.
+
+
+# =====================
+# EVALUATION CRITERIA
+# =====================
+
+# I. Setting Up Python Locally
+    # Correct version installed (3.x)
+        # Check if Python version 3.x is installed correctly
+        # Verify installation using python --version command
+    # IDE/Text Editor Setup
+        # Ensure a suitable IDE or text editor is installed (e.g., PyCharm, VSCode, Sublime Text)
+        # Verify proper configuration for Python development
+    # Command Line Access
+        # Confirm Python can be run from command line
+        # Check if python command works correctly
+    # File Creation
+        # Verify ability to create new Python files
+        # Ensure proper file extension (.py)
+
+# II. Creating Simple Functions
+    # Function Definition
+        # Create at least two functions as specified
+        # Ensure correct syntax and indentation
+    # Function Purpose
+        # Demonstrate different operations in each function
+        # Show understanding of basic programming concepts
+    # Function Implementation
+        # Implement functions correctly
+        # Ensure functions perform expected operations
+
+# III. Creating Unit Tests
+    # Test File Creation
+        # Create a separate test file (e.g., test_calculations.py)
+        # Verify proper naming convention
+    # Import Statements
+        # Correctly import functions from main script
+        # Ensure proper syntax for imports
+    # Test Class Structure
+        # Create a test class inheriting from unittest.TestCase
+        # Demonstrate understanding of unittest module
+    # Test Methods
+        # Write at least two test methods as specified
+        # Ensure correct use of assertion methods
+
+# IV. Running Tests and Observing Results
+    # Test Execution
+        # Demonstrate ability to run tests from command line
+        # Show understanding of different operating systems' commands
+    # Test Output Interpretation
+        # Correctly interpret test results
+        # Understand passing/failing tests
+    # Modifying Function and Re-running Tests
+        # Modify one function slightly
+        # Run tests again and identify failing test
+        # Fix the function and run tests to pass
+    # Command Line Usage
+        # Demonstrate correct command line usage for running Python scripts
+
+# V. Additional Considerations
+    # Error Handling
+        # Show awareness of error handling concepts
+        # Demonstrate ability to handle potential errors
+    # Code Organization
+        # Display good code organization practices
+        # Show understanding of separating logic and testing
+    # Documentation Comments
+        # Include appropriate comments in code
+        # Demonstrate understanding of documentation importance
+
+# =====================

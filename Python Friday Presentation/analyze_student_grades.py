@@ -27,3 +27,50 @@
     # Charlie,92,O3:0,88
     # David,76,N1:0,92
     # Eve,89,P2:0,91
+
+
+# =====================
+# EVALUATION CRITERIA
+# =====================
+# Correctness and Functional Requirements
+    # CSV File Reading
+        # Correctly reads the CSV file using either csv module or pandas library
+        # Handles potential errors (missing file, incorrect data types)
+    # Subject Average Calculation
+        # Accurately calculates average grades for Math, Science, and English
+        # Correctly applies arithmetic operations for averaging
+    # Highest Overall Grade Identification
+        # Successfully identifies student(s) with the highest overall grade
+        # Correctly compares grades across all subjects
+    # Highest Average Subject Determination
+        # Identifies the subject with the highest overall average grade
+
+# Code Quality and Design
+    # Code Organization
+        # Logical structure with separate functions for different tasks
+        # Clear and consistent naming conventions
+        # Proper use of whitespace and indentation
+    # Error Handling
+        # Appropriate error handling for file operations and data processing
+        # Graceful handling of potential exceptions
+    # Data Structures and Algorithms
+        # Efficient use of data structures (lists, dictionaries)
+        # Effective use of Python's built-in functions (max(), min())
+
+# Output and Reporting
+    # Report Formatting
+        # Clear and readable output presentation
+        # Proper use of string formatting for presenting results
+    # Summary Presentation
+        # Comprehensive summary of calculated averages and identified grades
+        # Easy-to-understand presentation of findings
+
+# Additional Considerations
+    # Comments and Documentation
+        # Presence of clear, explanatory comments
+        # Proper documentation of functions and key logic
+    # Efficiency and Scalability
+        # Consideration of performance for larger datasets
+        # Potential for future enhancements or extensions
+
+# =====================
