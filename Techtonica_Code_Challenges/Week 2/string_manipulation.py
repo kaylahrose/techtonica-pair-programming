@@ -19,9 +19,6 @@ def findTargetIndex(inputStr, targetStr):
 
     # Use str.find() method to get the index of the first occurrence
 
-    
-    # If the substring is not found, find() returns -1
-
   
 # Test cases
 test_cases = [
