@@ -4,15 +4,15 @@
     # a. Variables and Data Types
         # Declare variables of different data types (int, float, string, boolean)
         # Demonstrate type conversion between numeric types
-   
+
     # b. Control Flow Statements
         # Use if-else statements to control program flow
         # Implement nested if-else conditions
-  
+
     # c. Loops
         # Use a for loop to iterate over a sequence (e.g., a list of numbers)
         # Use a while loop to repeatedly execute a block of code until a condition is met
- 
+
    # d. Functions
         # Define and call a simple function
         # Pass arguments to the function
