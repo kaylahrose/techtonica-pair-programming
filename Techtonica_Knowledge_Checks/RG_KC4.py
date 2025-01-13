@@ -6,4 +6,5 @@
     # Implement API calls using requests library
     # Store API data alongside scraped data
     # Create routes to fetch and display API data
-    # Compound Work: Expand data sources beyond just web scraping
+
+# Compound Work: Expand data sources beyond just web scraping
