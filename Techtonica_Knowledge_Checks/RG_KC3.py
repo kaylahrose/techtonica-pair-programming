@@ -6,4 +6,5 @@
     # Implement client-side form validation
     # Develop Flask routes for CRUD operations (create, read, update, delete)
     # Store data in PostgreSQL database
-    # Compound Work: Integrate web scraping from previous weeks with form handling
+
+# Compound Work: Integrate web scraping from previous weeks with form handling
