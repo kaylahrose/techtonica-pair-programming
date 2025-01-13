@@ -6,4 +6,5 @@
     # Implement pagination for large datasets
     # Add search functionality to filter articles
     # Create data visualizations using Plotly or Matplotlib
-    # Compound Work: Enhance user interaction with stored data
+
+# Compound Work: Enhance user interaction with stored data
