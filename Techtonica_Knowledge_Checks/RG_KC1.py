@@ -8,4 +8,5 @@
     # Write a script to scrape news articles from a website (e.g., CNN, BBC)
     # Store scraped data in a SQLite database
     # Create a simple web interface to display stored headlines
-    # Compound Work: None yet
+
+# Compound Work: None yet
