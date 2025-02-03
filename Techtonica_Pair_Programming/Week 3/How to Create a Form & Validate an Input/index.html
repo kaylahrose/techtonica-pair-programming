@@ -4,11 +4,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <title>Form Validation</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="form-container">
+    <h1>Register</h1>
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+      </div>
+      <div class="form-group">
+        <label for="email">Email <span class="required">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password <span class="required">*</span></label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<!-- 1. Set up the form structure in HTML with input fields for the `username`, `email`, and `password`. Each input field should have a corresponding label and two of the fields should include a `required` attribute to enforce mandatory fields.
+ 1. Set up the form structure in HTML with input fields for the `username`, `email`, and `password`. Each input field should have a corresponding label and two of the fields should include a `required` attribute to enforce mandatory fields.
 -->
 
 
@@ -30,7 +64,7 @@ add javascript validation
     - validate email format
       - TODO: pseudocode email validation
 -->
-<body>
+<!-- <body>
   <form>
 
     <div>
@@ -52,4 +86,4 @@ add javascript validation
   <script src="script.js"></script>
 </body>
 
-</html>
+</html> -->
