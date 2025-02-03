@@ -13,7 +13,6 @@ const eventObj3 = new Event(
 
 const eventArray = new Array();
 
-eventArray.push(eventObj1);
 eventArray.push(eventObj1, eventObj2, eventObj3);
 
 document.addEventListener('DOMContentLoaded', () => {
