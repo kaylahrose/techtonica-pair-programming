@@ -19,7 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#event').innerHTML = html;
 });
 
-// console.log("no tickets", eventObj1.availableTickets)
-// eventObj1.addAvailableTickets("human", 299);
-// eventObj1.addAvailableTickets("vampire", 99);
-// console.log("wow tickets", eventObj1.availableTickets)
+eventObj1.addAvailableTickets("human", 299);
+eventObj1.addAvailableTickets("vampire", 99);
+
+eventObj2.addAvailableTickets("General Admission", 25)
+eventObj2.addAvailableTickets("Floor Seating", 80)
+
+eventObj3.addAvailableTickets("Orchestra", 300)
+eventObj3.addAvailableTickets("Mezzanine", 200)
+eventObj3.addAvailableTickets("Balcony", 100)
+
+// debugger
+console.log("allTickets =>", eventObj1.allTickets())
