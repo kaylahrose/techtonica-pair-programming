@@ -28,3 +28,5 @@ eventObj2.addAvailableTickets("Floor Seating", 80)
 eventObj3.addAvailableTickets("Orchestra", 300)
 eventObj3.addAvailableTickets("Mezzanine", 200)
 eventObj3.addAvailableTickets("Balcony", 100)
+
+console.log("allTickets =>", eventObj1.allTickets())
