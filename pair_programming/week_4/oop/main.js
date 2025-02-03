@@ -18,3 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.querySelector('#event').innerHTML = html;
 });
+
+// console.log("no tickets", eventObj1.availableTickets)
+// eventObj1.addAvailableTickets("human", 299);
+// eventObj1.addAvailableTickets("vampire", 99);
+// console.log("wow tickets", eventObj1.availableTickets)
