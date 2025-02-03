@@ -11,7 +11,7 @@
 9. Inside "CLI_Practice," create three subdirectories: "Folder_A," "Folder_B," and "Folder_C".
 10. Navigate into "Folder_A".
 11. Create a new text file named "file_a.txt".
-12. Copy "file_a.txt" to "Folder_B" using the `cp` command.
+12. Copy "folder_a/file_a.txt" to "Folder_B" using the `cp` command.
 13. Move "file_a.txt" to "Folder_C" using the `mv` command.
 14. Delete "Folder_A" and its contents using the `rm -rf` command.
 15. Print the contents of the folder to show that "Folder_A" has been removed.

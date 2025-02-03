@@ -2,3 +2,12 @@ html {
   height: 100%; 
   width: 100%;
 }
+
+.formLabel {
+  width: 80px;
+  display: inline-block;
+}
+
+input {
+  margin-bottom: 8px;
+}

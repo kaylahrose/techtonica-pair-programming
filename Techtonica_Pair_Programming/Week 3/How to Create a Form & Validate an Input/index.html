@@ -8,8 +8,47 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<!-- 1. Set up the form structure in HTML with input fields for the `username`, `email`, and `password`. Each input field should have a corresponding label and two of the fields should include a `required` attribute to enforce mandatory fields.
+-->
 
+
+
+<!-- 
+3. Add validation logic with JavaScript to handle client-side validation when the form is submitted. This script should check the input values against whether the email is in a valid format and the password meets length requirements.
+add javascript validation 
+
+  - add validation
+    - validate password
+      - meet length requirement 
+        - minimum 5 chars 
+        - max 8
+        ------ nice to haves -------
+        - at least 1 specail charactar
+        - 1 uppercase
+        - 1 lowercase
+        - 1 number
+    - validate email format
+      - TODO: pseudocode email validation
+-->
+<body>
+  <form>
+
+    <div>
+      <label for="username" class="formLabel">Username</label>
+      <input id="username" required>
+    </div>
+    <div>
+      <label for="email" class="formLabel">Email</label>
+      <input id="email">
+    </div>
+    <div>
+      <label for="password" class="formLabel">Password</label>
+      <input id="password" required>
+    </div>
+    <input type="submit">
+
+
+  </form>
   <script src="script.js"></script>
 </body>
 
