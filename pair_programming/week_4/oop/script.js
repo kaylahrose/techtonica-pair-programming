@@ -22,3 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.querySelector('#event').innerHTML = html;
 });
+
+console.log("event1.tickets",event1.tickets)
+event1.addTickets("human", 299);
+event1.addTickets("vampire", 99);
+console.log("event1.tickets",event1.tickets)
