@@ -16,4 +16,8 @@ class Event {
     });
     return string
   };
+
+  searchTickets(lowerPrice, upperPrice) {
+    
+  }
 }

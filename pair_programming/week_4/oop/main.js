@@ -8,8 +8,8 @@ events.push(event1, event2, event3);
 
 document.addEventListener('DOMContentLoaded', () => {
   let html = '';
-  events.forEach((item) => {
-    html += `<li>${item.name} - ${item.description}</li>`;
+  events.forEach((event) => {
+    html += `<li>${event.name} - ${event.description} - ${event.allTickets()}</li>`;
   });
   document.querySelector('#event').innerHTML = html;
 });
@@ -31,4 +31,3 @@ event3.addTicket(ticket6)
 let ticket7 = new Ticket("Balcony", 100)
 event3.addTicket(ticket7)
 
-console.log("allTickets =>", event1.allTickets())
