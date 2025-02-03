@@ -5,3 +5,8 @@ class Event {
     this.availableTickets = [];
   }
 }
+
+const eventObj1 = new Event(
+  'KLOS Golden Gala',
+  'An evening with hollywood vampires'
+);
