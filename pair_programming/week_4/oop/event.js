@@ -5,7 +5,7 @@ class Event {
     this.tickets = [];
   };
 
-  addAvailableTickets(ticketType, ticketPrice) {
+  addTicket(ticketType, ticketPrice) {
     let ticket = new Ticket(ticketType, ticketPrice);
     this.tickets.push(ticket);
   };

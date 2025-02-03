@@ -19,14 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#event').innerHTML = html;
 });
 
-event1.addAvailableTickets("human", 299);
-event1.addAvailableTickets("vampire", 99);
+event1.addTicket("human", 299);
+event1.addTicket("vampire", 99);
 
-event2.addAvailableTickets("General Admission", 25)
-event2.addAvailableTickets("Floor Seating", 80)
+event2.addTicket("General Admission", 25)
+event2.addTicket("Floor Seating", 80)
 
-event3.addAvailableTickets("Orchestra", 300)
-event3.addAvailableTickets("Mezzanine", 200)
-event3.addAvailableTickets("Balcony", 100)
+event3.addTicket("Orchestra", 300)
+event3.addTicket("Mezzanine", 200)
+event3.addTicket("Balcony", 100)
 
 console.log("allTickets =>", event1.allTickets())
