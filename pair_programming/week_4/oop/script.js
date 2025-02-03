@@ -16,4 +16,10 @@ const eventArray = new Array();
 eventArray.push(eventObj1);
 eventArray.push(eventObj1, eventObj2, eventObj3);
 
-// console.log("eventArray", eventArray);
+document.addEventListener('DOMContentLoaded', () => {
+  let html = '';
+  eventArray.forEach((item) => {
+    html += `<li>${item.name} - ${item.description}</li>`;
+  });
+  document.querySelector('#event').innerHTML = html;
+});
