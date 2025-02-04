@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 console.log("event1.tickets",event1.tickets)
-event1.addTickets("human", 299);
-event1.addTickets("vampire", 99);
+let ticket =  new Ticket("human", 299);
+event1.addTicket(ticket);
+event1.addTicket("vampire", 99);
 console.log("event1.tickets",event1.tickets)
