@@ -6,6 +6,7 @@ export default function App() {
     <main>
       React ⚛️ + Vite ⚡ + Replit
       <Hello />
+      <Headshot />
     </main>
   )
 }
